@@ -1,0 +1,22 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+  .lesson{
+    width:50%;
+  }
+  .lesson-wrapper{
+    height: 1050px;
+  }
+}
+/* モバイル向けレイアウト */
+@media all and (max-width: 670px){
+  .lesson{
+    width: 100%;
+  }
+  .lesson-wrapper{
+    height: 1750px;
+  }
+  .boder{
+    display: inline-block;
+    text-align: center;
+  }
+}
